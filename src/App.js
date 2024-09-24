@@ -17,9 +17,7 @@ function App() {
         
         <main className="container">
           <Routes>
-            <Route path="/" element={<Banner />} />
-            <Route path="/index.html" element={<Banner />} />
-            <Route path="/Page202409/build" element={<Banner />} />
+            <Route path="//Page202409" element={<Banner />} />
             <Route path="/Banner" element={<Banner />} />
             <Route path="/About" element={<About/>} />
             <Route path="/Gallery" element={<Gallery/>}/>
