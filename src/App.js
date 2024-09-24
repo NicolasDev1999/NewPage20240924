@@ -17,9 +17,11 @@ function App() {
         
         <main className="container">
           <Routes>
+            <Route path="/Page202409/build/index.html" element={<Banner />} />
+            <Route path="/Page202409/build" element={<Banner />} />
             <Route path="/Banner" element={<Banner />} />
             <Route path="/About" element={<About/>} />
-            <Route path="/Gallery" element={<Gallery/>} />
+            <Route path="/Gallery" element={<Gallery/>}/>
           </Routes>
         </main>
         <WhatsAppButton />
@@ -30,5 +32,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;
