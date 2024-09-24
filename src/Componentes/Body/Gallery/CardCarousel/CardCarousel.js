@@ -18,13 +18,13 @@ const CardCarousel = ({ cards }) => {
     cssEase: 'linear',
     responsive: [
       {
-        breakpoint: 768, // Tamaño de tabletas
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
         },
       },
       {
-        breakpoint: 480, // Tamaño de móviles
+        breakpoint: 480,
         settings: {
           arrows: false,
           dots:false,

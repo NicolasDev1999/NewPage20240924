@@ -9,7 +9,7 @@ const Banner = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
-    }, 2500); // Cambia el texto cada 3 segundos
+    }, 2500); 
     return () => clearInterval(interval);
   }, [texts.length]);
 

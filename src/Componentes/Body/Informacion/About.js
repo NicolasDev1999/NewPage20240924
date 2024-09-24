@@ -9,7 +9,7 @@ const About = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
-    }, 10000); // Cambia el texto cada 3 segundos
+    }, 10000); 
     return () => clearInterval(interval);
   }, [texts.length]);
 
@@ -18,7 +18,7 @@ const About = () => {
   useEffect(() => {
       const interval = setInterval(() => {
         setTitleIndex((prevIndex) => (prevIndex + 1) % title.length);
-      }, 10000); // Cambia el texto cada 3 segundos
+      }, 10000); 
       return () => clearInterval(interval);
     }, [title.length]);
   

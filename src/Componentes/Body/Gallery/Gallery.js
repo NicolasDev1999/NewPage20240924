@@ -30,7 +30,7 @@ const Gallery = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
-    }, 4000); // Cambia el texto cada 3 segundos
+    }, 4000); 
     return () => clearInterval(interval);
   }, [texts.length]);
 

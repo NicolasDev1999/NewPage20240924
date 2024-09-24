@@ -37,7 +37,7 @@
   color: #000;
 }
 
-/* Estilos para Mobile */
+
 @media (max-width: 768px) {
   .navbar {
     position: relative;
@@ -71,6 +71,6 @@
   }
 
   .navbar-icon {
-    display: none; /* Ocultamos el ícono de logo para móviles */
+    display: none; 
   }
 }

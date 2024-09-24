@@ -1,10 +1,9 @@
 .information-content{
     display: flex;
-    height: 69vh; /* Ajusta la altura según sea necesario */
-    background: linear-gradient(90deg, #6a11cb, #2575fc); /* Fondo gradiente */
+    height: 69vh; 
+    background: linear-gradient(90deg, #6a11cb, #2575fc); 
   }
   
-  /* Sección de texto (izquierda) */
   .banner-text-info {
     background: url('/public/imagenes/Information-imagen.png') no-repeat center center;
     display: flex;
@@ -18,9 +17,9 @@
   @media (max-width: 768px){
    .banner-text-info{
       width: auto;
-      max-width: 100%; /* Evita que se desborde */
+      max-width: 100%; 
       padding: 10px;
-      overflow-y: auto; /* Permite scroll vertical */
+      overflow-y: auto; 
       border-radius: 8px;
       font-size: 16px;
       margin: 0;

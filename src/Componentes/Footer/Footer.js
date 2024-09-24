@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { FaLinkedin, FaGithub, FaEnvelope, FaReact } from "react-icons/fa"; // Importa el ícono de React
-import "./Footer.css"; // Importa los estilos
+import { FaLinkedin, FaGithub, FaEnvelope, FaReact } from "react-icons/fa";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -32,7 +32,7 @@ const Footer = () => {
           <ul className="contacto">
             <li>
               <a href="tel:+573215293348">
-                <FontAwesomeIcon icon={faPhone} />
+                <FontAwesomeIcon icon={faPhone}/>
               </a>
             </li>
             <li>
@@ -42,7 +42,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="icon-link"
               >
-                <FaEnvelope size={24} /> {/* Ícono de Correo */}
+                <FaEnvelope size={24}/> 
               </a>
             </li>
           </ul>
@@ -57,7 +57,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="icon-link"
               >
-                <FaLinkedin size={24} /> {/* Ícono de LinkedIn */}
+                <FaLinkedin size={24}/> 
               </a>
             </li>
             <li>
@@ -67,7 +67,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="icon-link"
               >
-                <FaGithub size={24} /> {/* Ícono de GitHub */}
+                <FaGithub size={24}/> 
               </a>
             </li>
           </ul>
@@ -80,7 +80,6 @@ const Footer = () => {
         </p>
         <p className="made-in-react">
           Hecho en React <FaReact className="react-icon" size={24} />{" "}
-          {/* Ícono de React */}
         </p>
       </div>
     </footer>

@@ -20,7 +20,6 @@ function App() {
             <Route path="/Banner" element={<Banner />} />
             <Route path="/About" element={<About/>} />
             <Route path="/Gallery" element={<Gallery/>} />
-            {/* Puedes agregar más rutas aquí */}
           </Routes>
         </main>
         <WhatsAppButton />
