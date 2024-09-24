@@ -1,0 +1,95 @@
+/* Estilo general del footer */
+.footer {
+    background: linear-gradient(90deg, #6a11cb, #2575fc); /* Gradiente morado a azul */
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    /*width: 100%;*/
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  /* Estilos para las secciones del footer */
+  .footer-section {
+    margin: 1rem;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ccc; /* Color claro al hacer hover */
+  }
+  .contacto{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  /* Estilo de las redes sociales */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Línea superior separadora */
+    padding-top: 1rem;
+    font-size: 0.9rem;
+  }
+  /* Estilo para "Echo en React" */
+.made-in-react {
+  font-size: 18px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Animación para el ícono de React */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react-icon {
+  margin-left: 8px;
+  animation: spin 4s linear infinite;
+}
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  

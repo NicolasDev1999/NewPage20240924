@@ -1,0 +1,40 @@
+.information-content{
+    display: flex;
+    height: 69vh; /* Ajusta la altura según sea necesario */
+    background: linear-gradient(90deg, #6a11cb, #2575fc); /* Fondo gradiente */
+  }
+  
+  /* Sección de texto (izquierda) */
+  .banner-text-info {
+    background: url('/public/imagenes/Information-imagen.png') no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 100px;
+    color: white;
+    background-size: cover;
+    z-index: 1;
+  }
+  @media (max-width: 768px){
+   .banner-text-info{
+      width: auto;
+      max-width: 100%; /* Evita que se desborde */
+      padding: 10px;
+      overflow-y: auto; /* Permite scroll vertical */
+      border-radius: 8px;
+      font-size: 16px;
+      margin: 0;
+   }
+   
+  }
+  
+  .banner-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .banner-text p {
+    font-size: 1.5rem;
+  }
+ 
+  

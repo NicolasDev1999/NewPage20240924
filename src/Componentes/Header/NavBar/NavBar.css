@@ -1,0 +1,76 @@
+/* Estilos para Desktop */
+.navbar {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  position: relative;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-icon img {
+  height: 20px;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item a {
+  color: #ffffff;
+  margin-left: 12px;
+  padding: 10px 20px;
+  border-radius: 12px 12px 0px 0px;
+  text-decoration: none;
+}
+
+.navbar-item a:hover {
+  color: #000;
+}
+
+/* Estilos para Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    padding: 0;
+  }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #6a11cb;
+    padding: 10px 0;
+  }
+
+  .mobile-nav-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    border-top: 2px solid transparent;
+    transition: border-top 0.3s ease;
+  }
+
+  .mobile-nav-item:hover {
+    border-top: 2px solid #ffffff;
+  }
+
+  .navbar-icon {
+    display: none; /* Ocultamos el ícono de logo para móviles */
+  }
+}
