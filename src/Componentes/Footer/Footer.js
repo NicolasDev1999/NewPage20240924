@@ -21,7 +21,10 @@ const Footer = () => {
               <a href="/Gallery">Experiencia</a>
             </li>
             <li>
-              <a href="/Doc/CV_Sergio Nicolas_Galindo Cante.pdf" target="blank">
+              <a
+                href="/Page202409/Doc/CV_Sergio_Nicolas_Galindo_Cante.pdf"
+                target="_blank"
+              >
                 Descarga mi CV
               </a>
             </li>
@@ -32,7 +35,7 @@ const Footer = () => {
           <ul className="contacto">
             <li>
               <a href="tel:+573215293348">
-                <FontAwesomeIcon icon={faPhone}/>
+                <FontAwesomeIcon icon={faPhone} />
               </a>
             </li>
             <li>
@@ -42,7 +45,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="icon-link"
               >
-                <FaEnvelope size={24}/> 
+                <FaEnvelope size={24} />
               </a>
             </li>
           </ul>
@@ -57,7 +60,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="icon-link"
               >
-                <FaLinkedin size={24}/> 
+                <FaLinkedin size={24} />
               </a>
             </li>
             <li>
@@ -67,7 +70,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="icon-link"
               >
-                <FaGithub size={24}/> 
+                <FaGithub size={24} />
               </a>
             </li>
           </ul>
