@@ -16,9 +16,8 @@ function App() {
         </header>
         
         <main className="container">
-          <Routes>
+          <Routes basename="/Page202409">
             <Route path="/" element={<Banner />} />
-            <Route path="/Page202409/build" element={<Banner />} />
             <Route path="/Banner" element={<Banner />} />
             <Route path="/About" element={<About/>} />
             <Route path="/Gallery" element={<Gallery/>}/>
