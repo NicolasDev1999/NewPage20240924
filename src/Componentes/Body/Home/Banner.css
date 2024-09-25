@@ -4,14 +4,8 @@
     height: 69vh;
     background: linear-gradient(90deg, #6a11cb, #2575fc);
   }
-  @media(max-width: 768px){
-    .banner{
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  
 
+  
   .banner-text {
     flex: 1;
     display: flex;
@@ -28,8 +22,11 @@
   }
   
   .banner-text p {
-    font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
   }
+  
   
   
   .banner-image {
@@ -39,4 +36,16 @@
     background-position: center;
     background-color: transparent;
   }
+  @media(max-width: 768px){
+    .banner{
+      display: flex;
+      flex-direction: column;
+     
+    }
+    .banner-text{
+      position: absolute;
+      padding: 10px;
+    }
+  }
+  
   

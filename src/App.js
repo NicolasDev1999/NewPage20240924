@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import WhatsAppButton from "./Componentes/Body/Whatsapp/Whatsapp";
 import Footer from "./Componentes/Footer/Footer";
 import NavBar from "./Componentes/Header/NavBar/NavBar";
@@ -16,7 +16,7 @@ function App() {
         </header>
         
         <main className="container">
-          <Routes basename="/Page202409">
+          <Routes>
             <Route path="/" element={<Banner />} />
             <Route path="/Banner" element={<Banner />} />
             <Route path="/About" element={<About/>} />
@@ -31,4 +31,5 @@ function App() {
     </Router>
   );
 }
+
 export default App;

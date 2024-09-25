@@ -1,4 +1,6 @@
 
 .container{
     position:relative;
+    background: url('/public/imagenes/Information-imagen.png') no-repeat center center;
+    background-size: cover;
 }

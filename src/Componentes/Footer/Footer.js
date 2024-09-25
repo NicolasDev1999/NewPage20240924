@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FaLinkedin, FaGithub, FaEnvelope, FaReact } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -12,18 +13,19 @@ const Footer = () => {
           <h4>Navegación</h4>
           <ul>
             <li>
-              <a href="/Banner">Inicio</a>
+              <Link to="/Banner">Inicio</Link>
             </li>
             <li>
-              <a href="/About">Sobre mi</a>
+              <Link to="/About">Sobre mí</Link>
             </li>
             <li>
-              <a href="/Gallery">Experiencia</a>
+              <Link to="/Gallery">Experiencia</Link>
             </li>
             <li>
               <a
-                href="/Page202409/Doc/CV_Sergio_Nicolas_Galindo_Cante.pdf"
+                href={`${process.env.PUBLIC_URL}/CV_Sergio Nicolas_Galindo Cante.pdf`}
                 target="_blank"
+                rel="noreferrer"
               >
                 Descarga mi CV
               </a>
@@ -51,7 +53,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-section">
-          <h4>Síguenos</h4>
+          <h4>Sígueme</h4>
           <ul className="social-icons">
             <li>
               <a

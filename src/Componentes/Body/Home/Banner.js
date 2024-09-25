@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import { motion } from "framer-motion";
 import './Banner.css';
 
 const Banner = () => {
   
   const [textIndex, setTextIndex] = useState(0);
-  const texts = ['Hola!!!','Soy Nicolás Galindo', 'Desarrollador Web', 'Productor Audiovisual'];
+  const texts = ['Soy Nicolás Galindo', 'Desarrollador Web', 'Productor Audiovisual'];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -14,14 +15,17 @@ const Banner = () => {
   }, [texts.length]);
 
   return (
-    <div className="banner">
+    <motion.div className="banner"
+    initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}>
         <div className='banner-text'>
             <h1>Bienvenido</h1>
             <p><span className="changing-text">{texts[textIndex]}</span></p>
         </div>
         <div className="banner-image"></div>
       
-    </div>
+    </motion.div>
     
   );
 };

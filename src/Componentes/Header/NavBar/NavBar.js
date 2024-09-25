@@ -20,7 +20,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-icon">
-        <a href='/Banner'><img src={"./imagenes/iconPage.png"} alt="Logo" className="navbar-logo" /></a>
+        <a href='/Page202409/'><img src={"./imagenes/iconPage.png"} alt="Logo" className="navbar-logo" /></a>
       </div>
 
       {!isMobile ? (

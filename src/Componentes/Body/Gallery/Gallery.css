@@ -25,7 +25,6 @@
 
 @media (max-width: 768px) {
     .Gallery-content {
-        gap: 1;
         align-content: center;
         width: auto;
         padding: 25px;
