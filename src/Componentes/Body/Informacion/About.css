@@ -1,7 +1,7 @@
 .information-content{
     display: flex;
     min-height: 69vh; 
-    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    background: linear-gradient(90deg, #0D0D0D, #072359,#3243A6,  #5F45BF, #9483AF);
   }
   
   .banner-text-info {

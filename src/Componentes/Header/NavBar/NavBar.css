@@ -1,6 +1,6 @@
 /* Estilos para Desktop */
 .navbar {
-  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  background: linear-gradient(90deg, #0D0D0D, #072359,#3243A6,  #5F45BF, #9483AF);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 1rem;
   position: relative;
@@ -43,7 +43,6 @@
     position: relative;
     bottom: 0;
     width: 100%;
-    background: linear-gradient(90deg, #6a11cb, #2575fc);
     padding: 0;
   }
 
@@ -51,7 +50,6 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: #6a11cb;
     padding: 10px 0;
   }
 
