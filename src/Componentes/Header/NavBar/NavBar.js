@@ -26,7 +26,7 @@ const NavBar = () => {
       {!isMobile ? (
         <ul className="nav-links">
           <li className='navbar-item'><Link to="/Banner">Inicio</Link></li>
-          <li className='navbar-item'><Link to="/About">Sobre Mi</Link></li>
+          <li className='navbar-item'><Link to="/About">Acerca de mii</Link></li>
           <li className='navbar-item'><Link to="/Gallery">Experiencia</Link></li>
         </ul>
       ) : (

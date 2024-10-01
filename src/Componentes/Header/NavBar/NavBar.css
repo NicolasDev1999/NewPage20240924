@@ -1,6 +1,5 @@
-/* Estilos para Desktop */
 .navbar {
-  background: linear-gradient(90deg, #0D0D0D, #072359,#3243A6,  #5F45BF, #9483AF);
+  background: linear-gradient(90deg, #1a1a2e, #16213e, #0f3460, #53354a, #6f2232);  background-size: 200% 200%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 1rem;
   position: relative;
@@ -9,7 +8,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  animation: gradientAnimation 5s ease infinite; /* Animación continua y suave */
 }
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 .navbar-icon img {
   height: 20px;

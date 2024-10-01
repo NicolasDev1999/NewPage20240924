@@ -1,13 +1,26 @@
 .footer {
-  background: linear-gradient(90deg, #0D0D0D, #072359,#3243A6,  #5F45BF, #9483AF);
+  background: linear-gradient(90deg, #1a1a2e, #16213e, #0f3460, #53354a, #6f2232);  background-size: 200% 200%; /* Aumentamos el tamaño del gradiente */
   box-shadow: 1px 2px 20px 11px rgba(0, 0, 0, 0.2);
-    padding: 2rem 1rem;
-    color: white;
-    text-align: center;
-    position: relative;
-    bottom: 0;
+  padding: 2rem 1rem;
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  animation: gradientAnimation 5s ease infinite; /* Animación del gradiente */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 100% 50%;
   }
-  
+  50% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
   .footer-container {
     display: flex;
     justify-content: space-around;

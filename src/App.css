@@ -1,6 +1,20 @@
 
 .container{
+    background: linear-gradient(90deg, #1a1a2e, #16213e, #0f3460, #53354a, #6f2232);
+    background-size: 200% 200%;
+    animation: gradientAnimation 8s ease infinite;
     position:relative;
     background: url('/public/imagenes/Information-imagen.png') no-repeat center center;
     background-size: cover;
 }
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

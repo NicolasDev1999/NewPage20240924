@@ -45,7 +45,10 @@ const About = () => {
           <span className="changing-text">{texts[index]}</span>
         </p>
       </div>
+      <div className="banner-image_about"></div>
     </motion.div>
+
+    
   );
 };
 
